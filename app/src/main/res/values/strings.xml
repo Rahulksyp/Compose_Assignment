@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="work_in_progress">work in progress</string>
+    <string name="cook">Cook</string>
+    <string name="favourites">Favourites</string>
+    <string name="manual">Manual</string>
+    <string name="device">Device</string>
+    <string name="preferences">Preference</string>
+    <string name="setting">Setting</string>
+    <string name="search_for_dish_and_ingredient">Search for dish and ingredient</string>
+    <string name="what_s_on_your_mind">What\'s on your mind?</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="_30_min_medium_prep">30 min • Medium prep.</string>
+</resources>
