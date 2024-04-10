@@ -82,9 +82,7 @@ fun SetupCookUi(context: Context, itemList: List<ItemData>) {
 @Composable
 fun Buttons(onClick: () -> Unit) {
     Row(
-        modifier = Modifier
-            .fillMaxWidth(),
-        horizontalArrangement = Arrangement.SpaceEvenly
+        modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly
     ) {
         val modifier = Modifier
             .weight(1f)
