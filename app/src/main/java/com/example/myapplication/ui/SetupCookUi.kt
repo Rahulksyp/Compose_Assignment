@@ -28,7 +28,6 @@ import com.example.myapplication.ui.toolbar.ShowSearchBar
 import com.example.myapplication.ui.utils.AppUtils
 import com.example.myapplication.ui.utils.ButtonWithImage
 
-
 @Composable
 fun SetupCookUi(context: Context, itemList: List<ItemData>) {
     var isCookTimeDialogVisible by remember { mutableStateOf(false) }
