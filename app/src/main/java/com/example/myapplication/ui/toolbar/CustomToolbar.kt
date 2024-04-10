@@ -36,19 +36,15 @@ fun ShowSearchBar(
     onIconClick: () -> Unit
 ) {
     Row(
-        modifier = Modifier.fillMaxWidth(),
-        verticalAlignment = Alignment.CenterVertically
+        modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically
     ) {
         Box(
-            modifier = Modifier
-                .weight(1f)
+            modifier = Modifier.weight(1f)
         ) {
             OutlinedTextField(
                 leadingIcon = {
                     Icon(
-                        imageVector = leadingIcon,
-                        contentDescription = null,
-                        tint = Blue_282E9B
+                        imageVector = leadingIcon, contentDescription = null, tint = Blue_282E9B
                     )
                 },
                 value = value,
@@ -59,9 +55,7 @@ fun ShowSearchBar(
                     .height(50.dp),
                 placeholder = {
                     Text(
-                        text = placeholder,
-                        color = Color.Gray,
-                        maxLines = 1
+                        text = placeholder, color = Color.Gray, maxLines = 1
                     )
                 },
                 maxLines = 1,
@@ -76,15 +70,12 @@ fun ShowSearchBar(
             )
         }
         Row(
-            verticalAlignment = Alignment.Top,
-            horizontalArrangement = Arrangement.spacedBy(8.dp)
+            verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            Icon(
-                imageVector = ImageVector.vectorResource(R.drawable.baseline_notifications_24),
+            Icon(imageVector = ImageVector.vectorResource(R.drawable.baseline_notifications_24),
                 contentDescription = null,
                 tint = Blue_2B308B,
-                modifier = Modifier.clickable { onIconClick() }
-            )
+                modifier = Modifier.clickable { onIconClick() })
 
             Icon(
                 imageVector = ImageVector.vectorResource(R.drawable.baseline_power_settings_new_24),
